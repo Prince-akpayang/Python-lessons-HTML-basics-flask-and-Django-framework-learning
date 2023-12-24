@@ -1,70 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>HTML Attributes</title>
-  <style>
-    /* CSS for styling examples */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-    h1 {
-      color: #333;
-    }
-    .code {
-      background-color: #f7f7f7;
-      padding: 5px 10px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-    }
-    /* Add more styles as needed */
-  </style>
-</head>
-<body>
-  <h1>HTML Attributes</h1>
-  
-  <section>
-    <h2>Introduction to Attributes</h2>
-    <p>HTML attributes provide additional information or functionality to elements and are added within the opening tag of an element.</p>
-    <p>For example:</p>
-    <div class="code">
-      &lt;a href="https://example.com" target="_blank"&gt;Link to Example&lt;/a&gt;<br>
-      &lt;img src="image.jpg" alt="Description"&gt;
-    </div>
-  </section>
-  
-  <section>
-    <h2>Commonly Used Attributes</h2>
-    <p>There are various attributes used with HTML elements:</p>
-    <ul>
-      <li><strong>href</strong> - Specifies the URL in an anchor tag (<code>&lt;a&gt;</code>)</li>
-      <li><strong>src</strong> - Specifies the source of an image in an image tag (<code>&lt;img&gt;</code>)</li>
-      <li><strong>alt</strong> - Specifies an alternate text for an image</li>
-      <!-- Add more examples -->
-    </ul>
-  </section>
-  
-  <section>
-    <h2>Usage and Examples</h2>
-    <p>Let's explore how attributes are used in HTML:</p>
-    <div class="code">
-      &lt;a href="https://example.com" target="_blank"&gt;Link to Example&lt;/a&gt;<br>
-      &lt;img src="image.jpg" alt="Description"&gt;
-    </div>
-  </section>
-  
-  <section>
-    <h2>Importance and Values</h2>
-    <p>Attributes can be crucial for providing essential information or defining behavior for HTML elements:</p>
-    <div class="code">
-      &lt;input type="text" id="username" name="username" required&gt;<br>
-      &lt;button onclick="submitForm()" disabled&gt;Submit&lt;/button&gt;
-    </div>
-  </section>
-  
-  <footer>
-    <p>For more information, visit <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">MDN Web Docs - HTML Attributes</a></p>
-  </footer>
-</body>
-</html>
+
+### HTML Attributes
+
+HTML attributes provide additional information about HTML elements and are used within the opening tags of these elements. They modify the behavior or appearance of the elements. Here are some common HTML attributes:
+
+#### 1. **`id`**
+   - Uniquely identifies an element on a web page.
+   - Example: `<div id="uniqueID">Content</div>`
+
+#### 2. **`class`**
+   - Groups elements and applies styles through CSS.
+   - Example: `<p class="highlight">Text</p>`
+
+#### 3. **`src`**
+   - Specifies the source of elements like `<img>`, `<script>`, `<audio>`, etc.
+   - Example: `<img src="image-url.jpg" alt="Description">`
+
+#### 4. **`href`**
+   - Defines the URL for `<a>` (anchor) elements.
+   - Example: `<a href="https://www.example.com">Link</a>`
+
+#### 5. **`alt`**
+   - Provides alternative text for images for accessibility.
+   - Example: `<img src="image-url.jpg" alt="Description">`
+
+#### 6. **`title`**
+   - Adds a title or tooltip text to an element.
+   - Example: `<a href="..." title="Link Title">Link</a>`
+
+#### 7. **`style`**
+   - Inline CSS styles directly applied to an element.
+   - Example: `<p style="color: red;">Text</p>`
+
+#### 8. **`target`**
+   - Specifies where to open the linked document in `<a>` elements.
+   - Example: `<a href="..." target="_blank">Link</a>`
+
+#### 9. **`rel`**
+   - Describes the relationship between the current document and the linked document in `<a>` elements.
+   - Example: `<a href="..." rel="noopener noreferrer">Link</a>`
